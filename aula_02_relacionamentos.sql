@@ -4,7 +4,7 @@
 -- Autor: Trícia🌷
 -- =========================================================
 
--- 1. Criando o ambiente físico (DDL)
+-- 1. Criando ambiente físico (DDL)
 CREATE DATABASE aula_02_universidade;
 USE aula_02_universidade;
 
