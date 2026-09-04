@@ -28,5 +28,8 @@ aula_02_relacionamentos.sql — DDL, 1:1 Relationships & BLOB Management: Implem
 Practiced structural schema updates using DDL commands (`ALTER TABLE` and `DROP TABLE`).
 Managed binary file storage by debugging datatype limitations and upgrading columns to `LONGBLOB` to successfully store and query real image assets within the database.
 
-
+aula_03_relacionamentos_1_N.sql` — DDL & 1:N (One-to-Many) Relationships:
+Modeled a physical database schema depicting a 1-to-Many relationship between `departamento` (One) and `professor` (Many) tables.
+Implemented constraints without the `UNIQUE` modifier on the Foreign Key (FK) to allow multiple records to link back to a single primary entity.
+Applied explicit column aliasing using the `AS` keyword within an `INNER JOIN` query to format and clear header overlaps in the final result report.
 
