@@ -1,39 +1,32 @@
-# 📊 Meus Estudos de SQL & Data Warehouse
+My SQL & Data Warehouse Studies
+Welcome to my portfolio repository! Here, I centralize and document my practical progress in Data Engineering and Databases, bridging the gap between theoretical learning from college and tutorials and real-world practice.
 
-Bem-vindo(a) ao meu repositório de portfólio! Aqui eu centralizo e documento toda a minha evolução prática em Engenharia de Dados e Banco de Dados, conectando o aprendizado teórico da faculdade e tutoriais com a prática real.
+About Me
+Name: Trícia Fiuza🌷
+Goal: To document my academic and practical journey in building efficient databases, writing structured queries (SQL), and applying Data Warehouse/ETL concepts.
+Tools used: MySQL Workbench, GitHub, and Git.
+Exercise Structure
+Here is an index of the exercises I have practiced and stored in this repository. Each file was written manually, line by line, to reinforce the concepts:
 
----
+College Classes
 
-## 👩‍💻 Sobre Mim
-* **Nome:** Trícia Fiuza🌷
-* **Objetivo:** Documentar minha jornada acadêmica e prática na construção de bancos de dados eficientes, consultas estruturadas (SQL) e conceitos de Data Warehouse/ETL.
-* **Ferramentas utilizadas:** MySQL Workbench, GitHub e Git.
+aula_01_conceitos.sql — Data Types and Initial Modeling: Creating the first database, defining tables with primary keys (PK), practical use of data types like VARCHAR and INT, and inserting test records.
 
----
+Data Warehouse Concepts (Theory Studied)
+In addition to daily practice with transactional databases (OLTP), this repository will feature practical projects based on Data Warehouse theories I learned in college, including:
+Multidimensional Modeling (Star Schema and Snowflake)
+Fact Tables and Dimension Tables
+Basic Loading and ETL Processes
 
-## 📚 Estrutura dos Meus Exercícios
+How to Run the Scripts
+Install MySQL Server and MySQL Workbench on your machine.
+Open any .sql file from this repository in Workbench.
+Click the Lightning Bolt icon to execute the script and generate the structure locally.
 
-Aqui está o índice do que já pratiquei e armazenei no repositório. Cada arquivo foi escrito manualmente linha por linha para fixação dos conceitos:
+aula_02_relacionamentos.sql — DDL, 1:1 Relationships & BLOB Management: Implemented a physical database schema establishing a strict 1-to-1 relationship between two tables (`aluno` and `foto`) using Foreign Key (FK) constraints.
 
-### 📁 Aulas da Faculdade
-* `aula_01_conceitos.sql` — **Tipos de Dados e Modelagem Inicial:** Criação do primeiro banco de dados, definição de tabelas com chaves primárias (PK), uso prático de tipos como `VARCHAR` e `INT`, além de inserção de registros de teste.
+Practiced structural schema updates using DDL commands (`ALTER TABLE` and `DROP TABLE`).
+Managed binary file storage by debugging datatype limitations and upgrading columns to `LONGBLOB` to successfully store and query real image assets within the database.
 
-<!-- Aulas futuras (basta remover este comentário quando adicionar)
-* `aula_02_...sql` — Próxima aula.
--->
 
----
-
-## 🧠 Conceitos de Data Warehouse (Teoria Estudada)
-Além da prática diária em bancos de dados transacionais (OLTP), este repositório receberá projetos práticos baseados em teorias de **Data Warehouse** que aprendi na faculdade, incluindo:
-* Modelagem Multidimensional (Star Schema e Snowflake)
-* Tabelas de Fatos e Tabelas de Dimensões
-* Processos de Carga e ETL básicos
-
----
-
-## 🛠️ Como Executar os Scripts
-1. Instale o **MySQL Server** e o **MySQL Workbench** na sua máquina.
-2. Abra qualquer arquivo `.sql` deste repositório no Workbench.
-3. Clique no ícone do **Raio** para executar o script e gerar a estrutura localmente.
 
