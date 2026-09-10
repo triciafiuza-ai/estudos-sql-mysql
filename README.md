@@ -33,3 +33,10 @@ Modeled a physical database schema depicting a 1-to-Many relationship between `d
 Implemented constraints without the `UNIQUE` modifier on the Foreign Key (FK) to allow multiple records to link back to a single primary entity.
 Applied explicit column aliasing using the `AS` keyword within an `INNER JOIN` query to format and clear header overlaps in the final result report.
 
+aula_04_matriculas.sql` — DDL & N:M (Many-to-Many) Relationships:
+Designed an advanced schema handling a Many-to-Many relationship between `aluno` and `disciplina` tables.
+Implemented an intermediary junction/bridge table (`turma`) containing its own operational attributes (`sala` and `horario`).
+Enforced database integrity by constructing a Composite Primary Key leveraging multiple foreign key references simultaneously to prevent duplicate enrollments.
+
+
+
